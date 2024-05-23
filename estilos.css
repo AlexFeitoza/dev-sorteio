@@ -5,57 +5,65 @@
 * {
     margin: 0;
     padding: 0;
+    outline: none;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 body {
     background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-div .dado {
-    display: block;
-    margin: auto;
-    height: 374px;
-    width: 583px;
-    top: 156px;
-    left: 700px;
-}
 
 h2 {
-    color: #fff;
+    font-style: normal;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 32px;
     font-weight: 400;
-    line-height: 37.5px;
+    line-height: 38px;
+    color: #fff;
     text-align: center;
+    margin-top: 126px;
+    margin-top: 26px;
 }
 
 input {
+    background: rgb(255, 255, 255, 0.25);
+    border: 1px solid rgb(255, 255, 255, 0.2);
     margin-left: 400px;
     width: 342px;
-    height: 44px;
-    top: 705px;
-    left: 647px;
-    padding: 13px 233px 30px 16px;
-    gap: 10px;
+    height: 74px;
+    padding-left: 20px;
     border-radius: 10px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    display: inline-block;
-    justify-content: center;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 47px;
+    color: #fff;
+    opacity: 0.7;
+    
+}
 
+.input-min {
+    margin-right: 62px;
 }
 
 button {
-    background-color: greenyellow;
+    background-color: #aec346;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
     color: #fff;
     width: 342px;
-    height: 44px;
+    height: 72px;
     text-align: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 80px;
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
