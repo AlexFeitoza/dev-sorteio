@@ -46,6 +46,7 @@ input {
     line-height: 47px;
     color: #fff;
     opacity: 0.7;
+    flex-direction: row;
     
 }
 
